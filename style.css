@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Cormorant Garamond', serif;
+margin: 0;    
+}
+.menu{
+display: flex;
+text-align: center;
+}
+.menu a{
+line-height: 50px;    
+height: 50px;    
+text-decoration: none;
+color: white;
+display: block;
+font-size: 21px;
+}
+.menu a:hover{
+background-color:rgba(118, 70, 70, 0.75) ;    
+color: rgb(240, 196, 196);
+}
+.menu li{
+width: 25%;    
+list-style-type: none;
+border-right: 1px black solid;
+}
+.col-1{
+max-width: 25%;   
+flex: 0 0 25%;
+}
+.col-6{
+ max-width: 50%;   
+flex: 0 0 50% ;
+}
+.col-3{
+max-width: 25% ;  
+flex:  0 0 25%;
+}
+.row{
+display: flex;
+margin: 0 -15px;
+}
+.container{
+margin: 0 auto;
+max-width: 1200px;
+width: 100%;
+padding-left: 15px;
+padding-right: 15px;
+}
+.header{
+display: flex;
+height: 100px;
+align-items: center;
+background-color: rgba(122, 95, 95, 0.75);
+}   
+nav{
+ display: block;   
+}
