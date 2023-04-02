@@ -13,18 +13,39 @@ text-align: center;
 line-height: 50px;    
 height: 50px;    
 text-decoration: none;
-color: white;
+color:black;
 display: block;
 font-size: 21px;
+}
+.menu_2 a{
+width: 140px; 
+box-shadow: 2px 1px 0px -1px;;
 }
 .menu a:hover{
 background-color:rgba(118, 70, 70, 0.75) ;    
 color: rgb(240, 196, 196);
 }
+
 .menu li{
+position: relative;   
 width: 25%;    
 list-style-type: none;
-border-right: 1px black solid;
+}
+.menu >li{
+border-right: 1px black solid;  
+}
+
+.menu .menu_2{
+color: black;     
+padding: 15px 40px ;   
+position: absolute;
+top:85%;
+left: -20%;
+max-width: 100%;
+display: none;
+}
+.menu li:hover .menu_2{
+display: block;    
 }
 .col-1{
 max-width: 25%;   
