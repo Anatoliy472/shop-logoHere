@@ -123,9 +123,32 @@ position: absolute;
 background-color: white; 
 width: 40px;
 height: 40px;
-top: 0px;
-right: -34%;
+
+top: -40px;
+right: -113%;
+
+position: relative;
 }
+.search-2-rondo{
+background-color:#2c71b8;
+width: 25px;
+height: 25px;
+position: absolute;
+top: -27%;
+left: -22%;
+border-radius: 20px;
+}
+.search-2-rondo a{
+display: block;    
+margin-left: 6px;   
+margin-top: 2px;
+color: white;
+text-decoration: none;
+list-style-type: none;
+}
+
+
+
 .icon_1{
 position: absolute;    
 top: 26%;
