@@ -138,21 +138,19 @@ top: -27%;
 left: -22%;
 border-radius: 20px;
 }
-.search-2-rondo a{
+.search-2-rondo p{
 display: block;    
 margin-left: 6px;   
 margin-top: 2px;
 color: white;
-text-decoration: none;
-list-style-type: none;
 }
 
 
 
 .icon_1{
-position: absolute;    
+position: absolute;  
 top: 26%;
-right: 28%;   
+right: 28%;  
 }
 .input_search{
 width: 200px;
@@ -168,6 +166,11 @@ display: block;
 height: 400px;  
 width: 100%; 
 background-color:  rgba(35, 90, 147, 0.75)
+}
+.section-content a{
+text-decoration: none;
+list-style-type: none;
+color: white;
 }
 .section-margin{
 text-align: center;
@@ -313,8 +316,9 @@ height: 40px;
 margin-left: 10px;   
 background-color:  rgba(86, 141, 198, 0.75) ;   
 }
-.button-inBetweenForm-2 a{
-font-size: 21px;    
+.button-inBetweenForm-2 p{
+font-size: 21px;   
+
 }
 .footer{
 margin-bottom: 0px;  
