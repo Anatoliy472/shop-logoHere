@@ -274,10 +274,14 @@ border: solid 1px black;
 border: solid 1px #2c71b8;    
 margin: -60px 9px 1px 1px;
 }
+.div-img-corect-heart:hover,.liked{
+    background-color: #2c71b8;    
+    }
 .div-img-corect-cursor{
 border: solid 1px #2c71b8;    
 margin:-133px -29px 0px 0px;
 }
+
 .div-img-corect-laptop{
 margin: 0px 56px 0px 0px;
 }
@@ -308,7 +312,7 @@ width: 90%;
 .button-inBetweenForm-1 a{
 font-size: 21px;    
 }
-.button-inBetweenForm-2{
+.button-inBetweenForm{
 color: white;    
 border: 1px solid white;
 width: 90%;
@@ -316,7 +320,7 @@ height: 40px;
 margin-left: 10px;   
 background-color:  rgba(86, 141, 198, 0.75) ;   
 }
-.button-inBetweenForm-2 p{
+.button-inBetweenForm p{
 font-size: 21px;   
 
 }
